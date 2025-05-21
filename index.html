@@ -39,7 +39,7 @@
             font-size: 28px;
             margin-bottom: 15px;
         }
-        .image-pokemon{
+        .imagem-pokemon{
             width: 150px;
             height: 150px;
             margin-bottom: 15px;
@@ -47,7 +47,53 @@
             object-fit: contain;
             box-shadow: 0 4px 12px black;
         }
+        .info-pokemon {
+            font-size: 18px;
+            color: rgb(20, 20, 20);
+        }
+
+        .info-pokemon p{
+            margin: 6px 0;
+        }
+
+        .fita-tipo{
+            display: inline-block;
+            background-color: #8d0000;
+            padding: 5x 12x;
+            border-radius: 12x;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        .area-busca {
+            margin-top: 20px;
+        }
+        
+        .area-busca input{
+            padding: 8x;
+            border-radius: 8px;
+            border: 1px solid white; 
+            width: 80px;   
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .area-busca button{
+            padding: 8px 16px;
+            background-color: burlywood;
+            color: whitesmoke;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .area-busca button:hover{
+            background-color: #ff6363;
+            transform: scale(1.5);
+        }
     </style>
+    <script src="script.js"> </script>
 </head>
 <body>
     <!--Cartão principal da pokedex-->
